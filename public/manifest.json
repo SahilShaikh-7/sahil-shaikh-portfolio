@@ -1,0 +1,23 @@
+{
+  "name": "Sahil Shaikh - Fullstack Developer Portfolio",
+  "short_name": "Sahil Shaikh",
+  "description": "Professional portfolio of Sahil Shaikh, a Fullstack Developer specializing in React, Next.js, and Node.js",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#18181b",
+  "theme_color": "#8b5cf6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
