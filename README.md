@@ -2,11 +2,10 @@
 
 A modern and responsive portfolio website for Sahil Shaikh, Fullstack Developer.
 
-![Portfolio Preview](./preview.png)
 
 ## Live Demo
 
-Check out the live demo: [https://sahil-portfolio.vercel.app/](https://sahil-portfolio.vercel.app/)
+Check out the live demo: [https://sahil-portfolio.vercel.app/](https://sahil-shaikh-portfolio.vercel.app/)
 
 ## Features
 
