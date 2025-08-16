@@ -477,61 +477,99 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-16 sm:py-24 lg:py-32 relative">
-        <div className="absolute inset-0 z-0">
-          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-          <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-        </div>
+<section id="contact" className="py-16 sm:py-24 lg:py-32 relative">
+  <div className="absolute inset-0 z-0">
+    <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+    <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+  </div>
 
-        <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
-          <SectionHeading title="Get In Touch" subtitle="Let's work together" />
+  <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
+    <SectionHeading title="Get In Touch" subtitle="Let's work together" />
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mt-16">
-            <GlassmorphicCard>
-              <h3 className="text-xl sm:text-2xl font-bold mb-6 font-poppins">Contact Information</h3>
-              <div className="space-y-6">
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Mail className="h-5 w-5 text-purple-400" />
-                  </div>
-                  <div>
-                    <div className="text-sm text-zinc-500">Email</div>
-                    <div className="font-medium text-sm sm:text-base">sms.sahil6868@gmail.com</div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Linkedin className="h-5 w-5 text-purple-400" />
-                  </div>
-                  <div>
-                    <div className="text-sm text-zinc-500">LinkedIn</div>
-                    <div className="font-medium text-sm sm:text-base">linkedin.com/in/sahil-shaikh-3b24602a8</div>
-                  </div>
-                </div>
-                <div className="flex items-center gap-4">
-                  <div className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center">
-                    <Github className="h-5 w-5 text-purple-400" />
-                  </div>
-                  <div>
-                    <div className="text-sm text-zinc-500">GitHub</div>
-                    <div className="font-medium text-sm sm:text-base">github.com/SahilShaikh-7</div>
-                  </div>
-                </div>
-              </div>
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mt-16">
+      <GlassmorphicCard>
+        <h3 className="text-xl sm:text-2xl font-bold mb-6 font-poppins">Contact Information</h3>
+        <div className="space-y-6">
+          {/* Email */}
+          <div className="flex items-center gap-4">
+            <a
+              href="mailto:sms.sahil6868@gmail.com"
+              className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-zinc-700 transition"
+            >
+              <Mail className="h-5 w-5 text-purple-400" />
+            </a>
+            <div>
+              <div className="text-sm text-zinc-500">Email</div>
+              <a
+                href="mailto:sms.sahil6868@gmail.com"
+                className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
+              >
+                sms.sahil6868@gmail.com
+              </a>
+            </div>
+          </div>
 
-              <div className="mt-8 pt-8 border-t border-zinc-800">
-                <h4 className="text-base sm:text-lg font-medium mb-4">Current Status</h4>
-                <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
-                  <span className="text-sm sm:text-base">Available for freelance work and full-time opportunities</span>
-                </div>
-              </div>
-            </GlassmorphicCard>
+          {/* LinkedIn */}
+          <div className="flex items-center gap-4">
+            <a
+              href="https://linkedin.com/in/sahil-shaikh-3b24602a8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-zinc-700 transition"
+            >
+              <Linkedin className="h-5 w-5 text-purple-400" />
+            </a>
+            <div>
+              <div className="text-sm text-zinc-500">LinkedIn</div>
+              <a
+                href="https://linkedin.com/in/sahil-shaikh-3b24602a8"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
+              >
+                linkedin.com/in/sahil-shaikh-3b24602a8
+              </a>
+            </div>
+          </div>
 
-            <ContactForm />
+          {/* GitHub */}
+          <div className="flex items-center gap-4">
+            <a
+              href="https://github.com/SahilShaikh-7"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-zinc-700 transition"
+            >
+              <Github className="h-5 w-5 text-purple-400" />
+            </a>
+            <div>
+              <div className="text-sm text-zinc-500">GitHub</div>
+              <a
+                href="https://github.com/SahilShaikh-7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
+              >
+                github.com/SahilShaikh-7
+              </a>
+            </div>
           </div>
         </div>
-      </section>
+
+        <div className="mt-8 pt-8 border-t border-zinc-800">
+          <h4 className="text-base sm:text-lg font-medium mb-4">Current Status</h4>
+          <div className="flex items-center gap-2">
+            <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
+            <span className="text-sm sm:text-base">Available for freelance work and full-time opportunities</span>
+          </div>
+        </div>
+      </GlassmorphicCard>
+
+      <ContactForm />
+    </div>
+  </div>
+</section>
+
 
       {/* Footer */}
       <footer className="border-t border-zinc-800 py-8 sm:py-12">
