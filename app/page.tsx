@@ -364,8 +364,8 @@ export default function Portfolio() {
               description="Comprehensive analytics platform for e-commerce businesses with real-time sales tracking, customer behavior analysis, inventory management, and predictive sales forecasting using machine learning."
               tags={["React", "D3.js", "Node.js", "PostgreSQL", "Redis", "ML"]}
               image="/modern-analytics-dashboard.png"
-              demoUrl="https://ecommerce-analytics.vercel.app"
-              repoUrl="https://github.com/SahilShaikh-7/ecommerce-analytics"
+              demoUrl="https://pulse-e-commerce-analytics-dashboard-ktneydjvk.vercel.app/"
+              repoUrl="https://github.com/SahilShaikh-7/Pulse-E-Commerce-analytics-Dashboard"
             />
             <ProjectCard
               title="Social Media Content Scheduler"
@@ -550,6 +550,7 @@ export default function Portfolio() {
                 rel="noopener noreferrer"
                 className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
               >
+
                 github.com/SahilShaikh-7
               </a>
             </div>
