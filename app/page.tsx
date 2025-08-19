@@ -360,14 +360,13 @@ export default function Portfolio() {
               repoUrl="https://github.com/SahilShaikh-7/supply-chain-optimizer"
             />
             <ProjectCard
-              title="Pulse: E-Commerce Analytics Dashboard"
-              description="An interactive analytics platform for e-commerce businesses featuring real-time sales tracking, customer behavior insights, inventory monitoring, and machine learning–based sales forecasting. Designed to empower businesses with data-driven decisions through intuitive visualizations."
-              tags={["React", "D3.js", "Node.js", "PostgreSQL", "Redis", "Machine Learning"]}
-              image="https://drive.google.com/uc?export=view&id=1vDo5kieotfJPbnTjgdb2bWqeqW27Anij"
+              title="E-Commerce Analytics Dashboard"
+              description="Comprehensive analytics platform for e-commerce businesses with real-time sales tracking, customer behavior analysis, inventory management, and predictive sales forecasting using machine learning."
+              tags={["React", "D3.js", "Node.js", "PostgreSQL", "Redis", "ML"]}
+              image="/modern-analytics-dashboard.png"
               demoUrl="https://pulse-e-commerce-analytics-dashboard-ktneydjvk.vercel.app/"
               repoUrl="https://github.com/SahilShaikh-7/Pulse-E-Commerce-analytics-Dashboard"
             />
-
             <ProjectCard
               title="Social Media Content Scheduler"
               description="Multi-platform social media management tool with AI-powered content suggestions, automated posting schedules, engagement analytics, and team collaboration features for marketing agencies."
