@@ -363,7 +363,7 @@ export default function Portfolio() {
               title="E-Commerce Analytics Dashboard"
               description="Comprehensive analytics platform for e-commerce businesses with real-time sales tracking, customer behavior analysis, inventory management, and predictive sales forecasting using machine learning."
               tags={["React", "D3.js", "Node.js", "PostgreSQL", "Redis", "ML"]}
-              image="/modern-analytics-dashboard.png"
+              image="https://drive.google.com/file/d/1vDo5kieotfJPbnTjgdb2bWqeqW27Anij/view?usp=sharing"
               demoUrl="https://pulse-e-commerce-analytics-dashboard-ktneydjvk.vercel.app/"
               repoUrl="https://github.com/SahilShaikh-7/Pulse-E-Commerce-analytics-Dashboard"
             />
