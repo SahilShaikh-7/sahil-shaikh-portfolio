@@ -329,7 +329,7 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 sm:gap-8 mt-16">
             <ProjectCard
               title="Smart Invoice Generator – SaaS Platform"
-              description="A comprehensive SaaS platform for automated invoice generation with PDF export capabilities, intelligent tax calculations, Razorpay payment integration, and real-time analytics dashboard for business insights."
+              description="A comprehensive SaaS platform for automated invoice generation with PDF export capabilities, intelligent tax calculations, Razorpay payment integration, and real-time analytics."
               tags={["Next.js", "Node.js", "Razorpay", "PDF.js", "MongoDB", "Analytics"]}
               image="/smart-invoice-dashboard.png"
               demoUrl="https://smart-invoice-demo.vercel.app"
@@ -337,7 +337,7 @@ export default function Portfolio() {
             />
             <ProjectCard
               title="AI-Powered Resume Analyzer for Job Matching"
-              description="Intelligent resume analysis system using OpenAI for skill extraction and job-role matching. Provides personalized feedback and recommendations to improve job application success rates."
+              description="Intelligent resume analysis system using OpenAI for skill extraction and job-role matching. Provides personalized feedback and recommendations to improve job application success."
               tags={["React", "OpenAI API", "Python", "NLP", "Machine Learning", "Firebase"]}
               image="/ai-resume-analyzer.png"
               demoUrl="https://app--career-spark-ai-5a3fc0df.base44.app/"
@@ -360,19 +360,16 @@ export default function Portfolio() {
               repoUrl="https://github.com/SahilShaikh-7/supply-chain-optimizer"
             />
             <ProjectCard
-              <ProjectCard
-  title="E-Commerce Analytics Dashboard"
-  description="Comprehensive analytics platform for e-commerce businesses with real-time sales tracking, customer behavior analysis, inventory management, and predictive sales forecasting using machine learning."
-  tags={["React", "D3.js", "Node.js", "PostgreSQL", "Redis", "ML"]}
-  image="/modern-analytics-dashboard.png"  // ✅ Local image in public/
-  demoUrl="https://pulse-e-commerce-analytics-dashboard-ktneydjvk.vercel.app/"
-  repoUrl="https://github.com/SahilShaikh-7/Pulse-E-Commerce-analytics-Dashboard"
-/>
-
+              title="E-Commerce Analytics Dashboard"
+              description="Comprehensive analytics platform for e-commerce businesses with real-time sales tracking, customer behavior analysis, inventory management, and predictive sales forecasting using machine learning."
+              tags={["React", "D3.js", "Node.js", "PostgreSQL", "Redis", "ML"]}
+              image="/modern-analytics-dashboard.png"
+              demoUrl="https://pulse-e-commerce-analytics-dashboard-ktneydjvk.vercel.app/"
+              repoUrl="https://github.com/SahilShaikh-7/Pulse-E-Commerce-analytics-Dashboard"
             />
             <ProjectCard
               title="Social Media Content Scheduler"
-              description="Multi-platform social media management tool with AI-powered content suggestions, automated posting schedules, engagement analytics, and team collaboration features for marketing agencies."
+              description="Multi-platform social media management tool with AI-powered content suggestions, automated posting schedules, engagement analytics, and team collaboration features for marketing teams."
               tags={["Next.js", "OpenAI", "MongoDB", "Social APIs", "Cron Jobs", "Analytics"]}
               image="/social-media-dashboard.png"
               demoUrl="https://socistream.onrender.com/"
@@ -480,100 +477,98 @@ export default function Portfolio() {
       </section>
 
       {/* Contact Section */}
-<section id="contact" className="py-16 sm:py-24 lg:py-32 relative">
-  <div className="absolute inset-0 z-0">
-    <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-    <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
-  </div>
-
-  <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
-    <SectionHeading title="Get In Touch" subtitle="Let's work together" />
-
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mt-16">
-      <GlassmorphicCard>
-        <h3 className="text-xl sm:text-2xl font-bold mb-6 font-poppins">Contact Information</h3>
-        <div className="space-y-6">
-          {/* Email */}
-          <div className="flex items-center gap-4">
-            <a
-              href="mailto:sms.sahil6868@gmail.com"
-              className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-zinc-700 transition"
-            >
-              <Mail className="h-5 w-5 text-purple-400" />
-            </a>
-            <div>
-              <div className="text-sm text-zinc-500">Email</div>
-              <a
-                href="mailto:sms.sahil6868@gmail.com"
-                className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
-              >
-                sms.sahil6868@gmail.com
-              </a>
-            </div>
-          </div>
-
-          {/* LinkedIn */}
-          <div className="flex items-center gap-4">
-            <a
-              href="https://linkedin.com/in/sahil-shaikh-3b24602a8"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-zinc-700 transition"
-            >
-              <Linkedin className="h-5 w-5 text-purple-400" />
-            </a>
-            <div>
-              <div className="text-sm text-zinc-500">LinkedIn</div>
-              <a
-                href="https://linkedin.com/in/sahil-shaikh-3b24602a8"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
-              >
-                linkedin.com/in/sahil-shaikh-3b24602a8
-              </a>
-            </div>
-          </div>
-
-          {/* GitHub */}
-          <div className="flex items-center gap-4">
-            <a
-              href="https://github.com/SahilShaikh-7"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-zinc-700 transition"
-            >
-              <Github className="h-5 w-5 text-purple-400" />
-            </a>
-            <div>
-              <div className="text-sm text-zinc-500">GitHub</div>
-              <a
-                href="https://github.com/SahilShaikh-7"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
-              >
-
-                github.com/SahilShaikh-7
-              </a>
-            </div>
-          </div>
+      <section id="contact" className="py-16 sm:py-24 lg:py-32 relative">
+        <div className="absolute inset-0 z-0">
+          <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
+          <div className="absolute bottom-1/3 right-1/3 w-64 h-64 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10"></div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-zinc-800">
-          <h4 className="text-base sm:text-lg font-medium mb-4">Current Status</h4>
-          <div className="flex items-center gap-2">
-            <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
-            <span className="text-sm sm:text-base">Available for freelance work and full-time opportunities</span>
+        <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
+          <SectionHeading title="Get In Touch" subtitle="Let's work together" />
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start mt-16">
+            <GlassmorphicCard>
+              <h3 className="text-xl sm:text-2xl font-bold mb-6 font-poppins">Contact Information</h3>
+              <div className="space-y-6">
+                {/* Email */}
+                <div className="flex items-center gap-4">
+                  <a
+                    href="mailto:sms.sahil6868@gmail.com"
+                    className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-zinc-700 transition"
+                  >
+                    <Mail className="h-5 w-5 text-purple-400" />
+                  </a>
+                  <div>
+                    <div className="text-sm text-zinc-500">Email</div>
+                    <a
+                      href="mailto:sms.sahil6868@gmail.com"
+                      className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
+                    >
+                      sms.sahil6868@gmail.com
+                    </a>
+                  </div>
+                </div>
+
+                {/* LinkedIn */}
+                <div className="flex items-center gap-4">
+                  <a
+                    href="https://linkedin.com/in/sahil-shaikh-3b24602a8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-zinc-700 transition"
+                  >
+                    <Linkedin className="h-5 w-5 text-purple-400" />
+                  </a>
+                  <div>
+                    <div className="text-sm text-zinc-500">LinkedIn</div>
+                    <a
+                      href="https://linkedin.com/in/sahil-shaikh-3b24602a8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
+                    >
+                      linkedin.com/in/sahil-shaikh-3b24602a8
+                    </a>
+                  </div>
+                </div>
+
+                {/* GitHub */}
+                <div className="flex items-center gap-4">
+                  <a
+                    href="https://github.com/SahilShaikh-7"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-zinc-700 transition"
+                  >
+                    <Github className="h-5 w-5 text-purple-400" />
+                  </a>
+                  <div>
+                    <div className="text-sm text-zinc-500">GitHub</div>
+                    <a
+                      href="https://github.com/SahilShaikh-7"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-medium text-sm sm:text-base text-blue-400 hover:underline"
+                    >
+                      github.com/SahilShaikh-7
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-8 pt-8 border-t border-zinc-800">
+                <h4 className="text-base sm:text-lg font-medium mb-4">Current Status</h4>
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse"></div>
+                  <span className="text-sm sm:text-base">Available for freelance work and full-time opportunities</span>
+                </div>
+              </div>
+            </GlassmorphicCard>
+
+            <ContactForm />
           </div>
         </div>
-      </GlassmorphicCard>
-
-      <ContactForm />
-    </div>
-  </div>
-</section>
-
+      </section>
 
       {/* Footer */}
       <footer className="border-t border-zinc-800 py-8 sm:py-12">
