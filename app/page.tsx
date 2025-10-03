@@ -375,7 +375,7 @@ export default function Portfolio() {
               description="Multi-platform social media management tool with AI-powered content suggestions, automated posting schedules, engagement analytics, and team collaboration features for marketing agencies."
               tags={["Next.js", "OpenAI", "MongoDB", "Social APIs", "Cron Jobs", "Analytics"]}
               image="/social-media-dashboard.png"
-              demoUrl="https://social-scheduler.vercel.app"
+              demoUrl="https://socistream.onrender.com/"
               repoUrl="https://github.com/SahilShaikh-7/social-scheduler"
             />
           </div>
