@@ -376,7 +376,7 @@ export default function Portfolio() {
               tags={["Next.js", "OpenAI", "MongoDB", "Social APIs", "Cron Jobs", "Analytics"]}
               image="/social-media-dashboard.png"
               demoUrl="https://socistream.onrender.com/"
-              repoUrl="https://github.com/SahilShaikh-7/social-scheduler"
+              repoUrl="https://github.com/SahilShaikh-7/SociStream"
             />
           </div>
         </div>
