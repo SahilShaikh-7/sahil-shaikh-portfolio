@@ -347,7 +347,7 @@ export default function Portfolio() {
               title="TaskFlow - Task&Team Management Platform"
               description="TaskFlow is a sleek, fully functional task management platform that streamlines marketing & Developer team operations with an intuitive dark interface, real-time workload visualization, advanced skill mapping, and robust collaboration tools. Powered by built-in AI for automated local task allocation, it brings together tasks, teams, and analytics, ensuring seamless workflow and maximum productivity from planning to execution."
               tags={["React", "Next.js", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"]}
-              image="/disaster-alert-system.png"
+              image="/Screenshot (126).png"
               demoUrl="https://taskflow-bysahil.vercel.app/"
               repoUrl="https://github.com/SahilShaikh-7/TaskFlow-Task-Management-app"
             />
