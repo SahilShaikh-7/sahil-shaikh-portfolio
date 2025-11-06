@@ -1,0 +1,76 @@
+# Sahil Shaikh - Portfolio
+
+A modern and responsive portfolio website for Sahil Shaikh, Fullstack Developer.
+
+
+## Live Demo
+
+Check out the live demo: [https://sahil-portfolio.vercel.app/](https://sahil-shaikh-portfolio.vercel.app/)
+
+## Features
+
+- Responsive design that works on all devices
+- Modern UI with smooth animations
+- Project showcase section
+- About me section
+- Contact form with email functionality
+- Built with cutting-edge web technologies
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) - The React framework for production
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Firebase](https://firebase.google.com/) - Backend services
+- [Vercel](https://vercel.com) - Deployment platform
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   \`\`\`bash
+   git clone https://github.com/SahilShaikh-7/portfolio.git
+   \`\`\`
+
+2. Navigate to the project directory:
+   \`\`\`bash
+   cd portfolio
+   \`\`\`
+
+3. Install dependencies:
+   \`\`\`bash
+   npm install
+   \`\`\`
+
+4. Run the development server:
+   \`\`\`bash
+   npm run dev
+   \`\`\`
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the portfolio.
+
+## Customization
+
+To customize this portfolio:
+
+1. Update the content in the appropriate components
+2. Replace placeholder images with your own in the `public` folder
+3. Modify the color scheme in the CSS files
+4. Update the metadata in `app/layout.tsx`
+
+## Deployment
+
+This project is configured for easy deployment on Vercel:
+
+1. Fork this repository
+2. Create a new project on Vercel
+3. Connect your GitHub account and select this repository
+4. Click "Deploy"
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request.
+
+## License
+
+This project is open source and available under the [MIT License](./LICENSE).
