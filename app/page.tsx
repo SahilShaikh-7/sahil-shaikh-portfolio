@@ -344,12 +344,12 @@ export default function Portfolio() {
               repoUrl="https://github.com/SahilShaikh-7/ai-resume-analyzer"
             />
             <ProjectCard
-              title="Real-Time Disaster Alert System"
-              description="Critical emergency notification system leveraging multiple APIs and WebSocket technology to deliver instant disaster alerts to users based on their location and preferences."
-              tags={["React", "WebSocket", "Node.js", "Weather API", "Push Notifications", "Redis"]}
-              image="/Screenshot (126).png"
-              demoUrl="https://disaster-alert-system.vercel.app"
-              repoUrl="https://github.com/SahilShaikh-7/disaster-alert-system"
+              title="TaskFlow - Task&Team Management Platform"
+              description="TaskFlow is a sleek, fully functional task management platform that streamlines marketing & Developer team operations with an intuitive dark interface, real-time workload visualization, advanced skill mapping, and robust collaboration tools. Powered by built-in AI for automated local task allocation, it brings together tasks, teams, and analytics, ensuring seamless workflow and maximum productivity from planning to execution."
+              tags={["React", "Next.js", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"]}
+              image="/disaster-alert-system.png"
+              demoUrl="https://taskflow-bysahil.vercel.app/"
+              repoUrl="https://github.com/SahilShaikh-7/TaskFlow-Task-Management-app"
             />
             <ProjectCard
               title="AI-Powered Supply Chain Optimizer"
@@ -368,7 +368,7 @@ export default function Portfolio() {
               repoUrl="https://github.com/SahilShaikh-7/Pulse-E-Commerce-analytics-Dashboard"
             />
             <ProjectCard
-  title="Social Media Content Scheduler"
+  title="Social Media Content Scheduler - SociStream"
   description="Multi-platform social media management tool with AI-powered content suggestions, automated posting schedules, engagement analytics, and team collaboration features for marketing teams."
   tags={["Next.js", "OpenAI", "MongoDB", "Social APIs", "Cron Jobs", "Analytics"]}
   image="/Screenshot (96).png"
