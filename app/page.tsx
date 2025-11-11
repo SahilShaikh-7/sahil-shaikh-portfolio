@@ -340,7 +340,7 @@ export default function Portfolio() {
               description="Intelligent resume analysis system using OpenAI for skill extraction and job-role matching. Provides personalized feedback and recommendations to improve job application success."
               tags={["React", "OpenAI API", "Python", "NLP", "Machine Learning", "Firebase"]}
               image="/ai-resume-analyzer.png"
-              demoUrl="https://app--career-spark-ai-5a3fc0df.base44.app/"
+              demoUrl="https://careerspark-jsearch.vercel.app/"
               repoUrl="https://github.com/SahilShaikh-7/ai-resume-analyzer"
             />
             <ProjectCard
