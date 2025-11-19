@@ -42,7 +42,7 @@ export function Navbar() {
   }
 
   const handleResumeDownload = () => {
-    window.open("https://drive.google.com/file/d/1qJKmmXpYi3unjmE7dDm2AK9sxPZLj00s/view", "_blank")
+    window.open("https://drive.google.com/file/d/1EeN2ivhaOUtvT9zMEYvo9WLg7NGVnhoe/view?usp=sharing, "_blank")
     setIsOpen(false)
   }
 
