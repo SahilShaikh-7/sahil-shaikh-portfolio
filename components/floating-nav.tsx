@@ -90,7 +90,7 @@ export function FloatingNav() {
                 size="sm"
                 className="ml-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0"
                 onClick={() =>
-                  window.open("https://drive.google.com/file/d/1qJKmmXpYi3unjmE7dDm2AK9sxPZLj00s/view", "_blank")
+                  window.open("https://drive.google.com/file/d/1EeN2ivhaOUtvT9zMEYvo9WLg7NGVnhoe/view?usp=sharing", "_blank")
                 }
               >
                 Resume
@@ -122,7 +122,7 @@ export function FloatingNav() {
             <Button
               className="mt-6 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 border-0"
               onClick={() =>
-                window.open("https://drive.google.com/file/d/1qJKmmXpYi3unjmE7dDm2AK9sxPZLj00s/view", "_blank")
+                window.open("https://drive.google.com/file/d/1EeN2ivhaOUtvT9zMEYvo9WLg7NGVnhoe/view?usp=sharing", "_blank")
               }
             >
               Resume
