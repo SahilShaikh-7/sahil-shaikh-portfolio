@@ -11,19 +11,28 @@ export function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const sections = ["home", "about", "skills", "projects", "experience", "contact"]
-      const scrollPosition = window.scrollY + 100
+      const scrollPosition = window.scrollY + 150
 
       for (const section of sections) {
-        const element = document.getElementById(section === "home" ? "" : section)
+        const element = document.getElementById(section)
+
         if (element) {
           const offsetTop = element.offsetTop
           const offsetHeight = element.offsetHeight
 
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+          if (
+            scrollPosition >= offsetTop &&
+            scrollPosition < offsetTop + offsetHeight
+          ) {
             setActiveSection(section)
             break
           }
         }
+      }
+
+      // If at top, force Home active
+      if (window.scrollY < 100) {
+        setActiveSection("home")
       }
     }
 
@@ -32,17 +41,25 @@ export function Navbar() {
   }, [])
 
   const scrollToSection = (sectionId: string) => {
+    if (sectionId === "home") {
+      window.scrollTo({ top: 0, behavior: "smooth" })
+      setIsOpen(false)
+      return
+    }
+
     const element = document.getElementById(sectionId)
     if (element) {
       element.scrollIntoView({ behavior: "smooth" })
-    } else if (sectionId === "home") {
-      window.scrollTo({ top: 0, behavior: "smooth" })
     }
+
     setIsOpen(false)
   }
 
   const handleResumeDownload = () => {
-    window.open("https://drive.google.com/file/d/1EeN2ivhaOUtvT9zMEYvo9WLg7NGVnhoe/view?usp=sharing, "_blank")
+    window.open(
+      "https://drive.google.com/file/d/1EeN2ivhaOUtvT9zMEYvo9WLg7NGVnhoe/view?usp=sharing",
+      "_blank"
+    )
     setIsOpen(false)
   }
 
@@ -58,12 +75,15 @@ export function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-zinc-900/80 backdrop-blur-md border-b border-zinc-800">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
+
           {/* Logo */}
           <button
             onClick={() => scrollToSection("home")}
             className="font-bold text-xl font-poppins hover:scale-105 transition-transform"
           >
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">Sahil</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+              Sahil
+            </span>
             <span className="text-white">Shaikh</span>
           </button>
 
@@ -83,6 +103,8 @@ export function Navbar() {
                 {item.label}
               </button>
             ))}
+
+            {/* Resume Button */}
             <button
               onClick={handleResumeDownload}
               className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 hover:scale-105 text-zinc-400 hover:text-white hover:bg-zinc-800/50 border border-zinc-600 hover:border-purple-500/50"
@@ -123,6 +145,8 @@ export function Navbar() {
                   {item.label}
                 </button>
               ))}
+
+              {/* Mobile Resume */}
               <button
                 onClick={handleResumeDownload}
                 className="flex items-center gap-3 w-full px-3 py-2 rounded-lg text-sm font-medium transition-all duration-300 text-zinc-400 hover:text-white hover:bg-zinc-700/50 border border-zinc-600"
