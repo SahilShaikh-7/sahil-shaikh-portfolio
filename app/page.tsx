@@ -622,16 +622,9 @@ export default function Portfolio() {
               size="icon"
               className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white transition-all duration-300 hover:scale-110"
             >
-              <Link href="mailto:sms.sahil6868@gmail.com">
-  <Button
-    variant="ghost"
-    size="icon"
-    className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white transition-all duration-300 hover:scale-110"
-  >
-    <Mail className="h-5 w-5" />
-    <span className="sr-only">Email</span>
-  </Button>
-</Link>
+              <Mail className="h-5 w-5" />
+              <span className="sr-only">Email</span>
+            </Button>
 
           </div>
         </div>
