@@ -181,7 +181,10 @@ export default function Portfolio() {
                 <div className="mt-8 flex gap-4">
                   <Button
                     onClick={() =>
-                      window.open("https://drive.google.com/file/d/1EeN2ivhaOUtvT9zMEYvo9WLg7NGVnhoe/view?usp=sharing", "_blank")
+                      window.open(
+  "https://drive.google.com/file/d/1EeN2ivhaOUtvT9zMEYvo9WLg7NGVnhoe/view?usp=sharing", 
+  "_blank"
+)
                     }
                     className="bg-zinc-800 hover:bg-zinc-700 text-white transition-all duration-300 hover:scale-105"
                   >
