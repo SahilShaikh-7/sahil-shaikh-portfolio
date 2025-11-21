@@ -624,7 +624,14 @@ export default function Portfolio() {
             >
               <Mail className="h-5 w-5" />
               <span className="sr-only">Email</span>
-            </Button>
+             </Button>
+            </Link>
+            <Link href="sms.sahil6868@gmail.com" target="_blank" rel="noopener noreferrer">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="rounded-full bg-zinc-800/50 hover:bg-zinc-800 text-zinc-400 hover:text-white transition-all duration-300 hover:scale-110"
+              >
           </div>
         </div>
       </footer>
