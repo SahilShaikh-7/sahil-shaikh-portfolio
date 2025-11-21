@@ -341,7 +341,7 @@ export default function Portfolio() {
               tags={["React", "OpenAI API", "Python", "NLP", "Machine Learning", "Firebase"]}
               image="/ai-resume-analyzer.png"
               demoUrl="https://careerspark-jsearch.vercel.app/"
-              repoUrl="https://github.com/SahilShaikh-7/ai-resume-analyzer"
+              repoUrl="https://github.com/SahilShaikh-7/careerspark-jsearch"
             />
             <ProjectCard
               title="TaskFlow - Task&Team Management Platform"
