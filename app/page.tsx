@@ -331,13 +331,22 @@ export default function Portfolio() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 sm:gap-8 mt-16">
             <ProjectCard
-              title="Smart Invoice Generator – SaaS Platform"
-              description="A comprehensive SaaS platform for automated invoice generation with PDF export capabilities, intelligent tax calculations, Razorpay payment integration, and real-time analytics."
-              tags={["Next.js", "Node.js", "Razorpay", "PDF.js", "MongoDB", "Analytics"]}
-              image="/smart-invoice-dashboard.png"
-              demoUrl="https://smart-invoice-demo.vercel.app"
-              repoUrl="https://github.com/SahilShaikh-7/smart-invoice-generator"
-            />
+  title="HirePilot – Interview Scheduling & Applicant Tracking System"
+  description="A full-stack, production-ready Applicant Tracking System (ATS) built to manage end-to-end hiring workflows. Includes secure authentication, role-based access control, candidate pipeline tracking, interview scheduling, and recruiter dashboards using a scalable Supabase backend."
+  tags={[
+    "React",
+    "TypeScript",
+    "Supabase",
+    "PostgreSQL",
+    "Row Level Security (RLS)",
+    "Google OAuth",
+    "Full-Stack SaaS"
+  ]}
+  image="/hirepilot-dashboard.png"
+  demoUrl="https://hirepilotbysahil.vercel.app"
+  repoUrl="https://github.com/SahilShaikh-7/hirepilotbysahil"
+/>
+
             <ProjectCard
               title="AI-Powered Resume Analyzer for Job Matching"
               description="Intelligent resume analysis system using OpenAI for skill extraction and job-role matching. Provides personalized feedback and recommendations to improve job application success."
