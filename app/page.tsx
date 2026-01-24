@@ -342,7 +342,7 @@ export default function Portfolio() {
     "Google OAuth",
     "Full-Stack SaaS"
   ]}
-  image="/hirepilot-dashboard.png"
+  image="/hirepilot-dashboard.jpeg"
   demoUrl="https://hirepilotbysahil.vercel.app"
   repoUrl="https://github.com/SahilShaikh-7/hirepilotbysahil"
 />
