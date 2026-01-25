@@ -339,8 +339,7 @@ export default function Portfolio() {
     "Supabase",
     "PostgreSQL",
     "Row Level Security (RLS)",
-    "Google OAuth",
-    "Full-Stack SaaS"
+    "Google OAuth"
   ]}
   image="/hirepilot-dashboard.jpeg"
   demoUrl="https://hirepilotbysahil.vercel.app"
@@ -348,7 +347,7 @@ export default function Portfolio() {
 />
 
             <ProjectCard
-              title="AI-Powered Resume Analyzer for Job Matching"
+              title="CareerSpark - AI Powered Resume Analyzer for Job Matching"
               description="Intelligent resume analysis system using OpenAI for skill extraction and job-role matching. Provides personalized feedback and recommendations to improve job application success."
               tags={["React", "OpenAI API", "Python", "NLP", "Machine Learning", "Firebase"]}
               image="/ai-resume-analyzer.png"
@@ -372,7 +371,7 @@ export default function Portfolio() {
               repoUrl="https://github.com/SahilShaikh-7/supply-chain-optimizer"
             />
             <ProjectCard
-              title="E-Commerce Analytics Dashboard"
+              title="Pulse E-Commerce Analytics Dashboard"
               description="Comprehensive analytics platform for e-commerce businesses with real-time sales tracking, customer behavior analysis, inventory management, and predictive sales forecasting using machine learning."
               tags={["React", "D3.js", "Node.js", "PostgreSQL", "Redis", "ML"]}
               image="/modern-analytics-dashboard.png"
@@ -380,7 +379,7 @@ export default function Portfolio() {
               repoUrl="https://github.com/SahilShaikh-7/Pulse-E-Commerce-analytics-Dashboard"
             />
             <ProjectCard
-  title="Social Media Content Scheduler - SociStream"
+  title="SociStream - Social Media Content Scheduler"
   description="Multi-platform social media management tool with AI-powered content suggestions, automated posting schedules, engagement analytics, and team collaboration features for marketing teams."
   tags={["Next.js", "OpenAI", "MongoDB", "Social APIs", "Cron Jobs", "Analytics"]}
   image="/Screenshot (96).png"
