@@ -440,6 +440,24 @@ export default function Portfolio() {
                   </div>
                 </div>
               </div>
+              <div className="space-y-6">
+                <div className="border-l-2 border-purple-500/50 pl-6">
+                  <h4 className="text-lg sm:text-xl font-semibold mb-2">SSC</h4>
+                  <div className="text-zinc-400 mb-2 text-sm sm:text-base">MHSHSE</div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm bg-zinc-700/50 px-2 py-1 rounded">Percentage:- 86%</span>
+                  </div>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <div className="border-l-2 border-purple-500/50 pl-6">
+                  <h4 className="text-lg sm:text-xl font-semibold mb-2">HSC</h4>
+                  <div className="text-zinc-400 mb-2 text-sm sm:text-base">MHSHSE</div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-sm bg-zinc-700/50 px-2 py-1 rounded">Percentage:- 79%</span>
+                  </div>
+                </div>
+              </div>
             </GlassmorphicCard>
 
             {/* Certifications & Achievements */}
