@@ -442,7 +442,7 @@ export default function Portfolio() {
               </div>
               <div className="space-y-6">
                 <div className="border-l-2 border-purple-500/50 pl-6">
-                  <h4 className="text-lg sm:text-xl font-semibold mb-2">Higher Secondary Certificate</h4>
+                  <h4 className="text-lg sm:text-xl font-semibold mb-2">Higher Secondary Certificate (12th)</h4>
                   <div className="text-zinc-400 mb-2 text-sm sm:text-base">Maharashtra State Board of Secondary and Higher Secondary Education</div>
                   <div className="flex items-center gap-2">
                     <span className="text-sm bg-zinc-700/50 px-2 py-1 rounded">Percentage:- 79%</span>
@@ -451,7 +451,7 @@ export default function Portfolio() {
               </div>
               <div className="space-y-6">
                 <div className="border-l-2 border-purple-500/50 pl-6">
-                  <h4 className="text-lg sm:text-xl font-semibold mb-2">Secondary School Certificate</h4>
+                  <h4 className="text-lg sm:text-xl font-semibold mb-2">Secondary School Certificate (10th)</h4>
                   <div className="text-zinc-400 mb-2 text-sm sm:text-base">Maharashtra State Board of Secondary and Higher Secondary Education</div>
                   <div className="flex items-center gap-2">
                     <span className="text-sm bg-zinc-700/50 px-2 py-1 rounded">Percentage:- 86%</span>
