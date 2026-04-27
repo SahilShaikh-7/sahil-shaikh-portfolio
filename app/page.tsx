@@ -328,8 +328,24 @@ export default function Portfolio() {
 
         <div className="container relative z-10 px-4 sm:px-6 lg:px-8">
           <SectionHeading title="Featured Projects" subtitle="Advanced real-world solutions" />
-
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 sm:gap-8 mt-16">
+
+               <ProjectCard
+  title="FinSight — AI Powered Personal Finance & Expense Analyzer"
+  description="A smart finance management platform that analyzes user expenses, detects spending patterns, and provides AI-powered insights to improve savings and financial health."
+  tags={["React", "Next.js", "FastAPI", "Python", "MongoDB", "Razorpay", "AI (Groq)"]}
+  image="/finsight.png"
+  demoUrl="https://finsight-webapp.vercel.app/"
+  repoUrl="https://github.com/SahilShaikh-7/FinSight"
+/>
+            <ProjectCard
+  title="NeuroFlow — AI Powered Productivity & Workflow Assistant"
+  description="An AI-driven productivity platform that helps users manage tasks, automate workflows, and enhance focus using intelligent insights, reminders, and real-time assistance."
+  tags={["React", "Next.js", "Python", "FastAPI", "MongoDB", "Rule-Based AI Assistant"]}
+  image="/neuroflow.png"
+  demoUrl="https://neuroflowhub.vercel.app/"
+  repoUrl="https://github.com/SahilShaikh-7/NeuroHub"
+/>
             <ProjectCard
   title="HirePilot – Interview Scheduling & Applicant Tracking System"
   description="A full-stack, production-ready Applicant Tracking System (ATS) built to manage end-to-end hiring workflows. Includes secure authentication, role-based access control, candidate pipeline tracking, interview scheduling, and recruiter dashboards using a scalable Supabase backend."
@@ -346,15 +362,6 @@ export default function Portfolio() {
   repoUrl="https://github.com/SahilShaikh-7/hirepilotbysahil"
 />
             <ProjectCard
-  title="FinSight — AI Personal Finance & Expense Analyzer"
-  description="A smart finance management platform that analyzes user expenses, detects spending patterns, and provides AI-powered insights to improve savings and financial health."
-  tags={["React", "Next.js", "FastAPI", "Python", "MongoDB", "Razorpay", "AI (Groq)"]}
-  image="/finsight.png"
-  demoUrl="https://finsight-webapp.vercel.app/"
-  repoUrl="https://github.com/SahilShaikh-7/FinSight"
-/>
-
-            <ProjectCard
               title="CareerSpark - AI Powered Resume Analyzer for Job Matching"
               description="Intelligent resume analysis system using OpenAI for skill extraction and job-role matching. Provides personalized feedback and recommendations to improve job application success."
               tags={["React", "OpenAI API", "Python", "NLP", "Machine Learning", "Firebase"]}
@@ -370,14 +377,7 @@ export default function Portfolio() {
               demoUrl="https://taskflow-bysahil.vercel.app/"
               repoUrl="https://github.com/SahilShaikh-7/TaskFlow-Task-Management-app"
             />
-            <ProjectCard
-  title="NeuroFlow — AI Productivity & Workflow Assistant"
-  description="An AI-driven productivity platform that helps users manage tasks, automate workflows, and enhance focus using intelligent insights, reminders, and real-time assistance."
-  tags={["React", "Next.js", "Python", "FastAPI", "MongoDB", "Rule-Based AI Assistant"]}
-  image="/neuroflow.png"
-  demoUrl="https://neuroflowhub.vercel.app/"
-  repoUrl="https://github.com/SahilShaikh-7/NeuroHub"
-/>
+           
             <ProjectCard
               title="Pulse E-Commerce Analytics Dashboard"
               description="Comprehensive analytics platform for e-commerce businesses with real-time sales tracking, customer behavior analysis, inventory management, and predictive sales forecasting using machine learning."
