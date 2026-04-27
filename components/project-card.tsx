@@ -70,7 +70,7 @@ export function ProjectCard({ title, description, tags, image, demoUrl, repoUrl 
                 asChild
               >
                 <Link href={demoUrl} target="_blank" rel="noopener noreferrer">
-                  Live Demo
+                  Live Project
                   <ArrowUpRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
