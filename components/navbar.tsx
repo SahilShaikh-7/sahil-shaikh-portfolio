@@ -57,7 +57,7 @@ export function Navbar() {
 
   const handleResumeDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1EeN2ivhaOUtvT9zMEYvo9WLg7NGVnhoe/view?usp=sharing",
+      "https://drive.google.com/file/d/1SdOdgYupHXqp0RKGJBqF8gzZbhunu2zN/view?usp=sharing",
       "_blank"
     )
     setIsOpen(false)
