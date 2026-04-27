@@ -345,6 +345,14 @@ export default function Portfolio() {
   demoUrl="https://hirepilotbysahil.vercel.app"
   repoUrl="https://github.com/SahilShaikh-7/hirepilotbysahil"
 />
+            <ProjectCard
+  title="FinSight — AI Personal Finance & Expense Analyzer"
+  description="A smart finance management platform that analyzes user expenses, detects spending patterns, and provides AI-powered insights to improve savings and financial health."
+  tags={["React", "Next.js", "FastAPI", "Python", "MongoDB", "Razorpay", "AI (Groq)"]}
+  image="/finsight.png"
+  demoUrl="https://finsight-webapp.vercel.app/"
+  repoUrl="https://github.com/SahilShaikh-7/FinSight"
+/>
 
             <ProjectCard
               title="CareerSpark - AI Powered Resume Analyzer for Job Matching"
@@ -363,13 +371,13 @@ export default function Portfolio() {
               repoUrl="https://github.com/SahilShaikh-7/TaskFlow-Task-Management-app"
             />
             <ProjectCard
-              title="AI-Powered Supply Chain Optimizer"
-              description="Advanced logistics optimization platform using predictive analytics and machine learning to optimize inventory management, reduce costs, and improve supply chain efficiency."
-              tags={["Python", "TensorFlow", "React", "D3.js", "PostgreSQL", "Docker"]}
-              image="/supply-chain-optimizer.png"
-              demoUrl="https://supply-chain-optimizer.vercel.app"
-              repoUrl="https://github.com/SahilShaikh-7/supply-chain-optimizer"
-            />
+  title="NeuroFlow — AI Productivity & Workflow Assistant"
+  description="An AI-driven productivity platform that helps users manage tasks, automate workflows, and enhance focus using intelligent insights, reminders, and real-time assistance."
+  tags={["React", "Next.js", "Python", "FastAPI", "MongoDB", "Rule-Based AI Assistant"]}
+  image="/neuroflow.png"
+  demoUrl="https://neuroflowhub.vercel.app/"
+  repoUrl="https://github.com/SahilShaikh-7/NeuroHub"
+/>
             <ProjectCard
               title="Pulse E-Commerce Analytics Dashboard"
               description="Comprehensive analytics platform for e-commerce businesses with real-time sales tracking, customer behavior analysis, inventory management, and predictive sales forecasting using machine learning."
