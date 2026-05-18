@@ -12,3 +12,17 @@ const nextConfig = {
 }
 
 export default nextConfig
+
+const nextConfig = {
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        destination: 'https://sahilshaikh-dev.vercel.app/:path*',
+        permanent: true,
+      },
+    ];
+  },
+};
+
+export default nextConfig;
